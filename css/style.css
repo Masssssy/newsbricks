@@ -1,0 +1,36 @@
+/* Actual plugin styling */
+#massy-featured p {color: #FFF}
+#massy-featured h1 {color: #FFF}
+
+#massy-featured {width: 1000px; height: 400px; background-color: #191919; overflow: hidden;}
+
+.massy-content {width: 387px; height: 400px; padding-left: 13px; padding-top: 20px; float: left; background-color: #5B9EDE; position: relative;}
+.massy-content h1 {font-family: 'Roboto', sans-serif; font-weight: normal; font-size: 36px; margin-bottom: 10px;}
+.massy-content p {width: 340px; letter-spacing: 0.6px; font-family: 'Arial', sans-serif; font-size: 14px; font-weight: 300; line-height: 20px;}
+
+#massy-rows {height: 400px; width: 600px; float: left; position: relative; background-color: #000; z-index: 1;}
+#massy-rows img {float:left; opacity: 0.5}
+
+#massy-rows .current-block img {opacity: 1}
+.massy-row {width: 600px; height: 200px; float: left; background-color: #000;}
+
+.massy-overlay {float: left; z-index: 100; position: absolute;}
+
+.massy-block {float: left; position: relative}
+.massy-block h1, .massy-block p {display: none;}
+
+.massy-progress-bar {position: absolute; bottom: 0px; background-color: #5B9EDE; height: 5px;}
+
+
+
+
+/* Demo page styling */
+
+body {background-color: #191919}
+#massy-featured {margin: 0 auto}
+#demo-banner {font-family: roboto; color: #FFF; font-size: 72px; text-align: center; width: 1000px; height: 100px; margin: 0 auto; margin-top: 30px;}
+
+
+
+
+

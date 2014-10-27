@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Smashing HTML5!</title>
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" /> 
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="newsbricks.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+ 
+<body id="index" class="home">
+
+	<div id="demo-banner">
+		<h1></h1>
+	</div>
+
+	<div id="massy-featured">
+		<!-- Top Row ---->
+	<div id="massy-rows">
+		<div class="massy-row">
+			<div class="massy-block">
+				<a href="#"><img src="img/1.png" alt="text goes here" /></a>
+				<h1>The Title</h1>
+				<p>The text that should be displayed yo.</p>
+			</div>
+
+			<div class="massy-block">
+				<a href="#"><img src="img/2.png" alt="text goes here" /></a>
+				<h1>The Title</h1>
+				<p>The text that should be displayed yo</p>
+			</div>
+
+			<div class="massy-block">
+				<a href="#"><img src="img/3.png" alt="text goes here" /></a>
+				<h1>The Title</h1>
+				<p>The text that should be displayed yo</p>
+			</div>
+
+		</div>
+
+		<!-- Bottom Row -->
+		<div class="massy-row">
+			<div class="massy-block">
+				<a href="#"><img src="img/4.png" alt="text goes here" /></a>
+				<h1>The Title</h1>
+				<p>The text that should be displayed yo</p>
+			</div>
+
+			<div class="massy-block">
+				<a href="#"><img src="img/5.png" alt="text goes here" /></a>
+				<h1>The Title</h1>
+				<p>The text that should be displayed yo</p>
+			</div>
+
+			<div class="massy-block newsbricks-last">
+				<a href="#"><img src="img/6.png" alt="text goes here" /></a>
+				<h1>The Title</h1>
+				<p>The text that should be displayed yo</p>
+			</div>
+
+		</div>
+	</div>
+
+<!---
+		<div class="massy-content">
+			<h1>Bill Gates Resigns as CEO of Microsoft</h1>
+			<p>Morbi luctus rhoncus sapien, a gravida tellus luctus vitae. Quisque gravida tempor vehicula. Cras facilisis nibh magna. Aliquam vel libero nec nisi adipiscing commodo. Nulla facilisi. Aenean sollicitudin sapien et tellus pellentesque, et tempor libero tempor. Nulla facilisi. Nulla eleifend consequat diam id laoreet. Aenean egestas venenatis mollis. Phasellus non massa at diam ullamcorper fermentum eget non metus. Mauris ac felis non massa vestibulum viverra id eget velit. Sed malesuada vel elit vel laoreet. Praesent arcu metus, congue sed tellus et, laoreet malesuada justo. Donec id lacinia leo, nec lacinia urna.</p>
+		</div>
+---->
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	$(window).load(function() {
+		$( "#massy-featured" ).massyCarousel({
+			color: 'yellow',
+			awesome: 'yeah awesome',
+
+		});
+	});
+</script>
+
+</html>
